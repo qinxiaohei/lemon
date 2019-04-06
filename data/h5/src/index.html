@@ -1,159 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="fonts/iconfont.css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/mui.picker.min.css">
+		<link rel="stylesheet" href="./css/mui.poppicker.css">
+	</head>
 
-<body>
-    <header class="header">
-        <div class="top">
-            <span>本月花费(元)</span>
-            <span>月<i class="iconfont icon-angle-down"></i></span>
-            <span>2018-10<i class="iconfont icon-angle-down"></i></span>
-        </div>
-        <div class="center">
-            <span>8036</span>.00
-        </div>
-        <div class="bottom">
-            <span>本月收入0.00</span>
-            <span>设置预算<i class="iconfont icon-shezhi1"></i></span>
-        </div>
-    </header>
-    <main class="main">
-        <div class="content">
-            <i class="iconfont icon-paynumber"></i>
-            <div class="tab">
-                <span class="active">账单</span>
-                <span>图表</span>
-            </div>
-            <i class="iconfont icon-fangdajing"></i>
-        </div>
-        <div class="tit">
-            <div class="title">
-                <span>10月19日</span>
-                <span>花费  8094.00</span>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/1.png" alt=""> 住宿
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/2.png" alt=""> 餐饮
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/1.png" alt=""> 住宿
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/2.png" alt=""> 餐饮
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/1.png" alt=""> 住宿
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/2.png" alt=""> 餐饮
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/1.png" alt=""> 住宿
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/2.png" alt=""> 餐饮
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/1.png" alt=""> 住宿
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/2.png" alt=""> 餐饮
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="tip">
-                <div class="left">
-                    <img src="./img/1.png" alt=""> 住宿
-                </div>
-                <div class="right">
-                    85.00
-                </div>
-            </div>
-            <div class="title">
-                <span>10月18日</span>
-                <span>花费  200.00</span>
-            </div>
-        </div>
-    </main>
-    <footer class="footer">
-        <ul>
-            <li>
-                <i class="iconfont icon-shouye"></i>
-                <span>首页</span>
-            </li>
-            <li>
-                <i class="iconfont icon-shouye"></i>
-                <span>首页</span>
-            </li>
-            <li class="current">
-                <i class="iconfont icon-shouye"></i>
-                <span>首页</span>
-            </li>
-            <li>
-                <i class="iconfont icon-shouye"></i>
-                <span>首页</span>
-            </li>
-        </ul>
-    </footer>
-    <script src="scripts/flexible.js"></script>
-</body>
+	<body>
+		<!-- 登录注册页面 -->
+		<div class="login main current">
+			<form class="mui-input-group">
+				<div class="mui-input-row">
+					<label>用户名</label>
+					<input type="text" class="mui-input-clear" placeholder="请输入用户名">
+				</div>
+				<div class="mui-input-row">
+					<label>密码</label>
+					<input type="password" class="mui-input-password" placeholder="请输入密码">
+				</div>
+				<div class="mui-button-row">
+					<button type="button" class="mui-btn mui-btn-primary">确认</button>
+					<button type="button" class="mui-btn mui-btn-danger">取消</button>
+				</div>
+			</form>
+		</div>
+		<!-- 主界面菜单同时移动 -->
+		<!-- 侧滑导航根容器 -->
+		<div class="mui-off-canvas-wrap mui-draggable main">
+			<!-- 主页面容器 -->
+			<div class="mui-inner-wrap">
+				<!-- 菜单容器 -->
+				<aside class="mui-off-canvas-left" id="offCanvasSide">
+					<div class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<!-- 菜单具体展示内容 -->
+
+						</div>
+					</div>
+				</aside>
+				<!-- 主页面标题 -->
+				<header class="mui-bar mui-bar-nav">
+					<!-- 侧边栏 -->
+					<!-- <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a> -->
+					<div class="top">
+						<div class="left">本月花费(元)</div>
+						<div class="right">
+							<span class="yeartime">月</span>
+							<span class="monthtime">2018-10</span>
+						</div>
+					</div>
+					<div class="center"><span>8036</span>.00</div>
+					<div class="bottom">
+						<ul>
+							<li>本月收入<span>0.00</span></li>
+							<li>设置预算<i class="mui-icon mui-icon-gear"></i></li>
+						</ul>
+					</div>
+				</header>
+				<!-- 主页面内容容器 -->
+				<div class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<!-- 主界面具体展示内容 -->
+						<!-- 侧边栏 -->
+						<div class="nav">
+							<a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide"></a>
+							<div class="tab">
+								<ul>
+									<li class="active">账单</li>
+									<li>图表</li>
+								</ul>
+							</div>
+							<i class="mui-icon mui-icon-search"></i>
+						</div>
+						<div class="shopping">
+							<div class="tit">
+								<i class="mui-icon mui-icon-email"></i><span>10月19日</span>
+								<ul>
+									<li>花费<span>8125.00</span></li>
+									<li>收入<span>1000.00</span></li>
+									<li>花费<span>-7125.00</span></li>
+								</ul>
+								<i class="mui-icon mui-icon-arrowup"></i>
+							</div>
+							<!--下拉刷新容器-->
+							<div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+								<div class="mui-scroll">
+									<!--数据列表-->
+									<ul class="mui-table-view mui-table-view-chevron" id="OA_task_1">
+										<!-- 
+								<li class="mui-table-view-cell mui-transitioning">
+									<div class="mui-slider-right mui-disabled">
+										<a class="mui-btn mui-btn-red" style="transform: translate(0px, 0px);">删除</a>
+									</div>
+									<div class="mui-slider-handle" style="transform: translate(0px, 0px);">
+										<i class="mui-icon mui-icon-star"></i>
+										<ul>
+											<li>奖金</li>
+											<li>10月22日</li>
+										</ul>
+										<span>1000.00</span>
+									</div>
+								</li>
+							-->
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="plus">+</div>
+					</div>
+				</div>
+				<nav class="mui-bar mui-bar-tab">
+					<a class="mui-tab-item mui-active">
+						<span class="mui-icon mui-icon-home"></span>
+						<span class="mui-tab-label">首页</span>
+					</a>
+					<a class="mui-tab-item">
+						<span class="mui-icon mui-icon-phone"></span>
+						<span class="mui-tab-label">圈子</span>
+					</a>
+					<a class="mui-tab-item">
+						<span class="mui-icon mui-icon-email"></span>
+						<span class="mui-tab-label">撒钱中</span>
+					</a>
+					<a class="mui-tab-item">
+						<span class="mui-icon mui-icon-gear"></span>
+						<span class="mui-tab-label">退出</span>
+					</a>
+				</nav>
+
+				<div class="mui-off-canvas-backdrop"></div>
+			</div>
+		</div>
+		<script src="./js/libs/require.js" data-main="./js/index.js"></script>
+	</body>
 
 </html>

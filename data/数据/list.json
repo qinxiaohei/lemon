@@ -1,0 +1,36 @@
+{"_id":{"$oid":"5c94c2ef28c2b4ad2cbb76bb"},"uid":"5c94bf0328c2b4ad2cbb76b3","icon":"mui-icon mui-icon-star","type":"奖金","timer":"2019-3-22","money":1000,"income":"收入"}
+{"_id":{"$oid":"5c94c30e28c2b4ad2cbb76bc"},"uid":"5c94bf0328c2b4ad2cbb76b3","icon":"mui-icon mui-icon-map","type":"工资","timer":"2019-3-22","money":8000,"income":"收入"}
+{"_id":{"$oid":"5c94c32f28c2b4ad2cbb76bd"},"uid":"5c94bf0328c2b4ad2cbb76b3","icon":"mui-icon mui-icon-plus","type":"金融","timer":"2019-3-21","money":1000,"income":"支出"}
+{"_id":{"$oid":"5c94c36428c2b4ad2cbb76be"},"uid":"5c94bf0328c2b4ad2cbb76b3","icon":"mui-icon mui-icon-spinner-cycle mui-spin","type":"数码","timer":"2019-3-22","money":5000,"income":"支出"}
+{"_id":{"$oid":"5c94c38828c2b4ad2cbb76bf"},"uid":"5c94bf0328c2b4ad2cbb76b3","icon":"mui-icon mui-icon-spinner mui-spin","type":"餐饮","timer":"2019-3-22","money":2000,"income":"支出"}
+{"_id":{"$oid":"5c94c3aa28c2b4ad2cbb76c0"},"uid":"5c94bf0328c2b4ad2cbb76b4","icon":"mui-icon mui-icon-spinner mui-spin","type":"餐饮","timer":"2019-3-21","money":3000,"income":"支出"}
+{"_id":{"$oid":"5c94c3c328c2b4ad2cbb76c1"},"uid":"5c94bf0328c2b4ad2cbb76b4","icon":"mui-icon mui-icon-videocam","type":"保险","timer":"2019-3-22","money":2000,"income":"支出"}
+{"_id":{"$oid":"5c94c3ec28c2b4ad2cbb76c2"},"uid":"5c94bf0328c2b4ad2cbb76b4","icon":"mui-icon mui-icon-personadd","type":"水果","timer":"2019-3-21","money":500,"income":"支出"}
+{"_id":{"$oid":"5c94c41128c2b4ad2cbb76c3"},"uid":"5c94bf0328c2b4ad2cbb76b4","icon":"mui-icon mui-icon-mic","type":"工资","timer":"2019-3-21","money":10000,"income":"收入"}
+{"_id":{"$oid":"5c94c42128c2b4ad2cbb76c4"},"uid":"5c94bf0328c2b4ad2cbb76b4","icon":"mui-icon mui-icon-mic","type":"奖金","timer":"2019-3-22","money":6000,"income":"收入"}
+{"_id":{"$oid":"5c94c47828c2b4ad2cbb76c5"},"uid":"5c94bf0328c2b4ad2cbb76b4","icon":"mui-icon mui-icon-contact","type":"意外所得","timer":"2019-3-23","money":1000,"income":"收入"}
+{"_id":{"$oid":"5c94c64a28c2b4ad2cbb76c6"},"uid":"5c94bf0328c2b4ad2cbb76b4","icon":"mui-icon mui-icon-chatbubble","type":"医疗","timer":"2019-3-22","money":1000,"income":"支出"}
+{"_id":{"$oid":"5c9a1c8ebd39cd5d2beeb787"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-qq","type":"保险","timer":"2019-3-22","money":1000,"income":"支出"}
+{"_id":{"$oid":"5c9a1c8ebd39cd5d2beeb789"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-star","type":"奖金","timer":"2019-3-23","money":2000,"income":"收入"}
+{"_id":{"$oid":"5c9a1c8fbd39cd5d2beeb78b"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-qq","type":"保险","timer":"2019-3-22","money":1000,"income":"支出"}
+{"_id":{"$oid":"5c9a1c8fbd39cd5d2beeb78d"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-star","type":"奖金","timer":"2019-3-23","money":2000,"income":"收入"}
+{"_id":{"$oid":"5c9a1c90bd39cd5d2beeb78e"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-starhalf","type":"餐饮","timer":"2019-3-21","money":800,"income":"支出"}
+{"_id":{"$oid":"5c9a1c90bd39cd5d2beeb78f"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-qq","type":"保险","timer":"2019-3-22","money":1000,"income":"支出"}
+{"_id":{"$oid":"5c9a1c90bd39cd5d2beeb790"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-image","type":"工资","timer":"2019-3-23","money":5000,"income":"收入"}
+{"_id":{"$oid":"5c9a1c90bd39cd5d2beeb791"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-star","type":"奖金","timer":"2019-3-23","money":2000,"income":"收入"}
+{"_id":{"$oid":"5c9a1c90bd39cd5d2beeb792"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-starhalf","type":"餐饮","timer":"2019-3-21","money":800,"income":"支出"}
+{"_id":{"$oid":"5c9a1c90bd39cd5d2beeb793"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-qq","type":"保险","timer":"2019-3-22","money":1000,"income":"支出"}
+{"_id":{"$oid":"5c9a1c90bd39cd5d2beeb794"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-image","type":"工资","timer":"2019-3-23","money":5000,"income":"收入"}
+{"_id":{"$oid":"5c9a1c90bd39cd5d2beeb795"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-star","type":"奖金","timer":"2019-3-23","money":2000,"income":"收入"}
+{"_id":{"$oid":"5c9a1c95bd39cd5d2beeb796"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-starhalf","type":"餐饮","timer":"2019-3-21","money":800,"income":"支出"}
+{"_id":{"$oid":"5c9a1c95bd39cd5d2beeb797"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-qq","type":"保险","timer":"2019-3-22","money":1000,"income":"支出"}
+{"_id":{"$oid":"5c9a1c95bd39cd5d2beeb798"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-image","type":"工资","timer":"2019-3-23","money":5000,"income":"收入"}
+{"_id":{"$oid":"5c9a1c95bd39cd5d2beeb799"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-star","type":"奖金","timer":"2019-3-23","money":2000,"income":"收入"}
+{"_id":{"$oid":"5c9a1c96bd39cd5d2beeb79a"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-starhalf","type":"餐饮","timer":"2019-3-21","money":800,"income":"支出"}
+{"_id":{"$oid":"5c9a1c96bd39cd5d2beeb79b"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-qq","type":"保险","timer":"2019-3-22","money":1000,"income":"支出"}
+{"_id":{"$oid":"5c9a1c96bd39cd5d2beeb79c"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-image","type":"工资","timer":"2019-3-23","money":5000,"income":"收入"}
+{"_id":{"$oid":"5c9a1c96bd39cd5d2beeb79d"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-star","type":"奖金","timer":"2019-3-23","money":2000,"income":"收入"}
+{"_id":{"$oid":"5c9edc8119770b69e812e81c"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-star","type":"奖金","timer":"10月22日","money":85,"income":"收入"}
+{"_id":{"$oid":"5c9ee1adeb6e063c74a5f5f3"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-star","type":"奖金","timer":"10月22日","money":96,"income":"收入"}
+{"_id":{"$oid":"5c9ee596dd43ca452c631bfe"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-star","type":"奖金","timer":"10月22日","money":"999","income":"收入"}
+{"_id":{"$oid":"5c9ee64bb3dae12fd8dd3611"},"uid":"5c94bf0328c2b4ad2cbb76b2","icon":"mui-icon mui-icon-image","type":"工资","timer":"10月22日","money":"666","income":"收入"}

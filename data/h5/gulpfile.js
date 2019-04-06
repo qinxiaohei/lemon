@@ -8,49 +8,41 @@ const concat = require("gulp-concat")
 const babel = require("gulp-babel")
 const imagemin = require("gulp-imagemin")
 const webserver = require("gulp-webserver")
-gulp.task("devhtml", function() {
-    return gulp.src("./src/*.html")
-        .pipe(htmlmin({
-            removeComments: true,
-            removeEmptyAttributes: true,
-            removeScriptTypeAttributes: true,
-            removeStyleLinkTypeAttributes: true,
-            collapseBooleanAttributes: true,
-            collapseWhitespace: true
-        }))
-        .pipe(gulp.dest("./dist/"))
-})
+
 gulp.task("devcss", function() {
-    return gulp.src("./src/styles/*.scss")
+    return gulp.src("./src/scss/*.scss")
         .pipe(sass())
         .pipe(mincss())
-        .pipe(gulp.dest("./dist/styles/"))
-})
-gulp.task("devjs", function() {
-    return gulp.src("./src/scripts/*.js")
-        .pipe(babel({
-            presets: ["env"]
-        }))
-        .pipe(minjs())
-        .pipe(gulp.dest("./dist/scripts/"))
-})
-gulp.task("devimg", function() {
-    return gulp.src("./src/img/*.{png,jpg}")
-        .pipe(imagemin())
-        .pipe(gulp.dest("./dist/img/"))
+        .pipe(gulp.dest("./src/css/"))
 })
 gulp.task("watch", function() {
-    gulp.watch("./src/*.html", gulp.series("devhtml"))
-    gulp.watch("./src/styles/*.scss", gulp.series("devcss"))
-    gulp.watch("./src/scripts/*.js", gulp.series("devjs"))
-    gulp.watch("./src/img/*.{png,jpg}", gulp.series("devimg"))
+    gulp.watch("./src/scss/*.scss", gulp.series("devcss"))
 })
 gulp.task("webserver", function() {
-    return gulp.src("./dist/")
+    return gulp.src("./src/")
         .pipe(webserver({
             port: 3030,
             open: true,
-            livereload: true
+            livereload: true,
+            proxies: [{
+                source: "/api/user",
+                target: "http://localhost:3000/api/user"
+            }, {
+                source: "/api/bill",
+                target: "http://localhost:3000/api/bill"
+            }, {
+                source: "/api/delete",
+                target: "http://localhost:3000/api/delete"
+            }, {
+                source: "/api/refer",
+                target: "http://localhost:3000/api/refer"
+            }, {
+                source: "/api/addation",
+                target: "http://localhost:3000/api/addation"
+            }, {
+                source: "/api/increase",
+                target: "http://localhost:3000/api/increase"
+            }]
         }))
 })
 gulp.task("dev", gulp.series("devcss", "webserver", "watch"))
